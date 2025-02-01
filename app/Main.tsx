@@ -73,26 +73,26 @@ export default function Home({ posts }) {
             {/* Education Item 1 */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                Bachelor of Engineering - Computer Engineering
+              Indian Institute of Technology, Madras (2024 - 2025)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-                St. Vincent Pallotti College of Engineering and Technology
+              Diploma - Data Science
               </p>
               <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
-                Coursework: Java, Python, Data Structures and Algorithms, DBMS, Neural Networks
+                Coursework: Mathematics, Python, R, Statistics, Machine Learning, Deep Learning,
+                NLP, Business Analytics
               </p>
             </div>
             {/* Education Item 2 */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                Diploma in Data Science
+              St. Vincent Pallotti College of Engineering and Technology (2019 - 2023)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-                Indian Institute of Technology, Madras
+              Bachelor of Engineering - Computer Engineering
               </p>
               <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
-                Coursework: Mathematics, Python, R, Statistics, Machine Learning, Deep Learning,
-                NLP, Business Analytics
+                Coursework: Java, Python, Data Structures and Algorithms, DBMS, Neural Networks
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function Home({ posts }) {
             {/* Experience Item */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                Bussiness Analyst Apperentice - (2024 - 24)
+                Bussiness Analyst Apperentice - (2024 - 2024)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
                 Bizgrow Technology (OPC pvt. ltd)
@@ -137,7 +137,7 @@ export default function Home({ posts }) {
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                Data Analyst Traniee - (2023 - 23)
+                Data Analyst Traniee - (2023 - 2023)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">AliGn InfoTech</p>
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
