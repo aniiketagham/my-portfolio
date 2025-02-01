@@ -73,10 +73,10 @@ export default function Home({ posts }) {
             {/* Education Item 1 */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-              Indian Institute of Technology, Madras (2024 - 2025)
+                Indian Institute of Technology, Madras (2024 - 2025)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-              Diploma - Data Science
+                Diploma - Data Science
               </p>
               <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
                 Coursework: Mathematics, Python, R, Statistics, Machine Learning, Deep Learning,
@@ -86,10 +86,10 @@ export default function Home({ posts }) {
             {/* Education Item 2 */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-              St. Vincent Pallotti College of Engineering and Technology (2019 - 2023)
+                St. Vincent Pallotti College of Engineering and Technology (2019 - 2023)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-              Bachelor of Engineering - Computer Engineering
+                Bachelor of Engineering - Computer Engineering
               </p>
               <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
                 Coursework: Java, Python, Data Structures and Algorithms, DBMS, Neural Networks
