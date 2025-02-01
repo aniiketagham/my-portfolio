@@ -41,7 +41,7 @@ export default function Home({ posts }) {
           </div>
           <div className="mb-3 flex justify-center space-x-4">
             <span className="border-grey rounded-full border p-4   dark:border-white">
-              <SocialIcon kind="mail" href={mailto:${siteMetadata.email}} size={7} />
+              <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={7} />
             </span>
             <span className="border-grey rounded-full border p-4  dark:border-white">
               <SocialIcon kind="github" href={siteMetadata.github} size={7} />
