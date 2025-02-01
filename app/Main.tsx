@@ -25,7 +25,9 @@ export default function Home({ posts }) {
             Hi, I’m Aniket Agham
           </h1>
           <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-            {`A passionate Data Scientist and Analytics Professional with a deep love for uncovering insights and solving complex problems through data. With 1+ year of experience in leveraging data to drive impactful business decisions, I specialize in Analytics, Machine Learning, NLP, and BI tools.`}
+            {
+              'A passionate Data Scientist and Analytics Professional with a deep love for uncovering insights and solving complex problems through data. With 1+ year of experience in leveraging data to drive impactful business decisions, I specialize in Analytics, Machine Learning, NLP, and BI tools.'
+            }
           </h2>
           <TypingEffect />
           <div className="my-8">
@@ -39,7 +41,7 @@ export default function Home({ posts }) {
           </div>
           <div className="mb-3 flex justify-center space-x-4">
             <span className="border-grey rounded-full border p-4   dark:border-white">
-              <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={7} />
+              <SocialIcon kind="mail" href={mailto:${siteMetadata.email}} size={7} />
             </span>
             <span className="border-grey rounded-full border p-4  dark:border-white">
               <SocialIcon kind="github" href={siteMetadata.github} size={7} />
@@ -56,8 +58,8 @@ export default function Home({ posts }) {
         <MDXLayoutRenderer code={author.body.code} />
       </AuthorLayout>
 
-{/* Education Section */}
-<div id="education" className="divide-y divide-gray-200 dark:divide-gray-700">
+      {/* Education Section */}
+      <div id="education" className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Education
@@ -69,27 +71,28 @@ export default function Home({ posts }) {
         <div className="container py-12">
           <div className="space-y-8">
             {/* Education Item 1 */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
                 Bachelor of Engineering - Computer Engineering
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
                 St. Vincent Pallotti College of Engineering and Technology
               </p>
-              <p className="mt-2 text-md text-gray-600 dark:text-gray-400">
+              <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
                 Coursework: Java, Python, Data Structures and Algorithms, DBMS, Neural Networks
               </p>
             </div>
             {/* Education Item 2 */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
                 Diploma in Data Science
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
                 Indian Institute of Technology, Madras
               </p>
-              <p className="mt-2 text-md text-gray-600 dark:text-gray-400">
-                Coursework: Mathematics, Python, R, Statistics, Machine Learning, Deep Learning, NLP, Business Analytics
+              <p className="text-md mt-2 text-gray-600 dark:text-gray-400">
+                Coursework: Mathematics, Python, R, Statistics, Machine Learning, Deep Learning,
+                NLP, Business Analytics
               </p>
             </div>
           </div>
@@ -109,41 +112,57 @@ export default function Home({ posts }) {
         <div className="container py-12">
           <div className="space-y-8">
             {/* Experience Item */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
                 Bussiness Analyst Apperentice - (2024 - 24)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
                 Bizgrow Technology (OPC pvt. ltd)
               </p>
-              <ul className="mt-2 text-md text-gray-600 dark:text-gray-400 list-inside list-disc pl-4">
-                <li>Analyzed major products, that drive revenue growth and prepared MIS reports for senior management's informed decision-making.
+              <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
+                <li>
+                  Analyzed major products, that drive revenue growth and prepared MIS reports for
+                  senior management's informed decision-making.
                 </li>
-                <li>Provided regular status updates to senior leadership through concise and clear presentations, ensuring project completion within a 10% faster timeline than planned.
+                <li>
+                  Provided regular status updates to senior leadership through concise and clear
+                  presentations, ensuring project completion within a 10% faster timeline than
+                  planned.
                 </li>
-                <li>Collaborated with cross-functional stakeholders to gather and document business requirements, ensuring transparent communication.</li>
+                <li>
+                  Collaborated with cross-functional stakeholders to gather and document business
+                  requirements, ensuring transparent communication.
+                </li>
               </ul>
             </div>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
                 Data Analyst Traniee - (2023 - 23)
               </h3>
-              <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-                AliGn InfoTech
-              </p>
-              <ul className="mt-2 text-md text-gray-600 dark:text-gray-400 list-inside list-disc pl-4">
-                <li>Utilized SQL and Python for data extraction, cleaning, and exploratory data analysis (EDA) on large datasets.
+              <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">AliGn InfoTech</p>
+              <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
+                <li>
+                  Utilized SQL and Python for data extraction, cleaning, and exploratory data
+                  analysis (EDA) on large datasets.
                 </li>
-                <li>Conducted statistical analysis to uncover trends, patterns, and insights, enhancing data-driven decision-making.
+                <li>
+                  Conducted statistical analysis to uncover trends, patterns, and insights,
+                  enhancing data-driven decision-making.
                 </li>
-                <li>Created and maintained dashboards and data reports using 15+ Tableau, translating complex data into clear, actionable insights for senior leadership.
+                <li>
+                  Created and maintained dashboards and data reports using 15+ Tableau, translating
+                  complex data into clear, actionable insights for senior leadership.
                 </li>
-                <li>Performed advanced Excel functions (VLOOKUP, Pivot Tables, Micros) for in-depth analysis, report generation, and automation of data processes, saving 7+ hours weekly.</li>
+                <li>
+                  Performed advanced Excel functions (VLOOKUP, Pivot Tables, Micros) for in-depth
+                  analysis, report generation, and automation of data processes, saving 7+ hours
+                  weekly.
+                </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </div>
 
       {/* Skills Section */}
       <div id="skills" className="divide-y divide-gray-200 dark:divide-gray-700">
