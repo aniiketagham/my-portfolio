@@ -8,7 +8,8 @@ const CertificateCard = ({ title, description, imgSrc, href }) => (
         alt={title}
         width={544}
         height={306}
-        className="aspect-[4/3] w-full object-cover" />
+        className="aspect-[4/3] w-full object-cover"
+      />
     </a>
     <div className="p-4">
       <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100">{title}</h3>
