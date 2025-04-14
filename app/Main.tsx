@@ -150,7 +150,7 @@ export default function Home({ posts }) {
                   enhancing data-driven decision-making.
                 </li>
                 <li>
-                  Created and maintained dashboards and data reports using 15+ Tableau, translating
+                  Created and maintained dashboards and data reports using 15+ Power BI, translating
                   complex data into clear, actionable insights for senior leadership.
                 </li>
                 <li>
