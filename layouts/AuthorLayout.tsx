@@ -42,7 +42,7 @@ export default function AuthorLayout({ children, content }: Props) {
             {children}
             <div className="my-8">
               <a
-                href="https://drive.google.com/file/d/11nB7USeLsPkVg2zSkzajzBZjq25iYrDd/view?usp=sharing"
+                href="https://docs.google.com/document/d/1MRWouqHwToVpVRk6nDDVYuRPBuqZt65hI7CXMsdrgKw/edit?usp=drive_link"
                 className="inline-flex items-center justify-center rounded-lg bg-primary-500 px-6 py-3 text-lg font-medium !text-white no-underline hover:bg-primary-600 dark:hover:bg-primary-400"
                 rel="noopener noreferrer"
                 target="_blank"
