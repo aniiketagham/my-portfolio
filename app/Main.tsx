@@ -114,7 +114,7 @@ export default function Home({ posts }) {
             {/* Experience Item */}
             <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
               <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                Bussiness Analyst Apperentice - (2024 - 2024)
+                Bussiness Analyst Apprentice - (2024 - 2024)
               </h3>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
                 Bizgrow Technology (OPC pvt. ltd)
