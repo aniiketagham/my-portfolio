@@ -41,14 +41,14 @@ export default function AuthorLayout({ children, content }: Props) {
           <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
             {children}
             <div className="my-8">
-              <a
+              {/*<a
                 href="https://docs.google.com/document/d/1MRWouqHwToVpVRk6nDDVYuRPBuqZt65hI7CXMsdrgKw/edit?usp=drive_link"
                 className="inline-flex items-center justify-center rounded-lg bg-primary-500 px-6 py-3 text-lg font-medium !text-white no-underline hover:bg-primary-600 dark:hover:bg-primary-400"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 My Resume
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>

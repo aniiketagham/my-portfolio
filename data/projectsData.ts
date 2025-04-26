@@ -1,5 +1,17 @@
 const projectsData = [
   {
+    title: 'Wine Quality Prediction',
+    description: `Predicting wine quality using machine learning with over 6,400 samples. Built modular pipelines for data processing, training, and real-time prediction via a Flask app. Enabled fast iteration with custom logging and streamlined deployment.`,
+    imgSrc: '/static/img/wine.png',
+    href: 'https://github.com/aniiketagham/wine_quality_prediction',
+  },
+  {
+    title: 'Movie Recommender System',
+    description: `Built smarter movie recommendations with Python and content-based filtering. Leveraging TMDB metadata and cosine similarity to deliver personalized suggestions and enhance discovery through an interactive Streamlit app.`,
+    imgSrc: '/static/img/movie.png',
+    href: 'https://github.com/aniiketagham/movie_recommender_system',
+  },
+  {
     title: 'Gold Price Prediction',
     description: `Enhancing financial forecasting with time series and machine learning. Exploring market indicators, global trends, and what it means to make data-backed investment decisions.`,
     imgSrc: '/static/img/gold.png',
