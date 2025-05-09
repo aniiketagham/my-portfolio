@@ -26,7 +26,7 @@ export default function Home({ posts }) {
           </h1>
           <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
             {
-              'A passionate Data Scientist and Analytics Professional with a deep love for uncovering insights and solving complex problems through data. With 1+ year of experience in leveraging data to drive impactful business decisions, I specialize in Analytics, Machine Learning, NLP, and BI tools.'
+              'A passionate Data Scientist and Analytics Professional with a deep love for uncovering insights and solving complex problems through data. With experience in leveraging data to drive impactful business decisions, I specialize in Analytics, Machine Learning, NLP, and BI tools.'
             }
           </h2>
           <TypingEffect />
