@@ -122,16 +122,19 @@ export default function Home({ posts }) {
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
                 <li>
                   Built and maintained 10+ interactive dashboards using Power BI, Excel, and Google Sheets, aligned with key business
-                  KPIs, resulting in a 35% improvement in data-driven decision-making across departments. 
+                  KPIs, resulting in a 35% improvement in data-driven decision-making across departments.
                 </li>
                 <li>
-                  Analyzed performance of top revenue-generating products, delivering insights that influenced pricing and inventory strategies, and improved product lifecycle planning. 
+                  Analyzed performance of top revenue-generating products, delivering insights that influenced pricing and inventory
+                  strategies, and improved product lifecycle planning. 
                 </li>
                 <li>
-                  Delivered weekly project updates and executive-level presentations, helping leadership stay aligned on progress and ensuring projects were completed 10% ahead of schedule.
+                  Delivered weekly project updates and executive-level presentations, helping leadership stay aligned on progress and
+                  ensuring projects were completed 10% ahead of schedule.
                 </li>
                 <li>
-                  Collaborated with 3+ cross-functional teams and actively participated in stakeholder meetings, implementing process optimizations that boosted reporting efficiency and team alignment. 
+                  Collaborated with 3+ cross-functional teams and actively participated in stakeholder meetings, implementing process
+                  optimizations that boosted reporting efficiency and team alignment. 
                 </li>
               </ul>
             </div>
@@ -142,13 +145,15 @@ export default function Home({ posts }) {
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">AliGn InfoTech</p>
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  Extracted, cleaned, and interpreted 500,000+ rows of customer data using SQL and Python, identifying key trends in customer behavior and informing targeted marketing campaign adjustments. 
+                  Extracted, cleaned, and interpreted 500,000+ rows of customer data using SQL and Python, identifying key trends in customer behavior and
+                  informing targeted marketing campaign adjustments. 
                 </li>
                 <li>
                   Centralized data into Power BI dashboards, enhancing campaign ROI by 15% through actionable insights. 
                 </li>
                 <li>
-                  Performed advanced Excel functions (VLOOKUP, Pivot Tables, Micros) for in-depth analysis, report generation, and automation of data processes, saving 7+ hours weekly.
+                  Performed advanced Excel functions (VLOOKUP, Pivot Tables, Micros) for in-depth analysis,
+                  report generation, and automation of data processes, saving 7+ hours weekly.
                 </li>
               </ul>
             </div>
