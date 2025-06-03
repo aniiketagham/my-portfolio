@@ -121,17 +121,20 @@ export default function Home({ posts }) {
               </p>
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  Analyzed major products, that drive revenue growth and prepared MIS reports for
-                  senior management's informed decision-making.
+                  Built and maintained 10+ interactive dashboards using Power BI, Excel, and Google Sheets, aligned with key business 
+                  KPIs, resulting in a 35% improvement in data-driven decision-making across departments. 
                 </li>
                 <li>
-                  Provided regular status updates to senior leadership through concise and clear
-                  presentations, ensuring project completion within a 10% faster timeline than
-                  planned.
+                  Analyzed performance of top revenue-generating products, delivering insights that influenced pricing and inventory 
+                  strategies, and improved product lifecycle planning. 
                 </li>
                 <li>
-                  Collaborated with cross-functional stakeholders to gather and document business
-                  requirements, ensuring transparent communication.
+                  Delivered weekly project updates and executive-level presentations, helping leadership stay aligned on progress and 
+                  ensuring projects were completed 10% ahead of schedule.
+                </li>
+                <li>
+                  Collaborated with 3+ cross-functional teams and actively participated in stakeholder meetings, implementing process 
+                  optimizations that boosted reporting efficiency and team alignment. 
                 </li>
               </ul>
             </div>
@@ -142,16 +145,11 @@ export default function Home({ posts }) {
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">AliGn InfoTech</p>
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  Utilized SQL and Python for data extraction, cleaning, and exploratory data
-                  analysis (EDA) on large datasets.
+                  Extracted, cleaned, and interpreted 500,000+ rows of customer data using SQL and Python, identifying key trends in 
+                  customer behavior and informing targeted marketing campaign adjustments. 
                 </li>
                 <li>
-                  Conducted statistical analysis to uncover trends, patterns, and insights,
-                  enhancing data-driven decision-making.
-                </li>
-                <li>
-                  Created and maintained dashboards and data reports using 15+ Power BI, translating
-                  complex data into clear, actionable insights for senior leadership.
+                  Centralized data into Power BI dashboards, enhancing campaign ROI by 15% through actionable insights. 
                 </li>
                 <li>
                   Performed advanced Excel functions (VLOOKUP, Pivot Tables, Micros) for in-depth
@@ -182,11 +180,11 @@ export default function Home({ posts }) {
                 Tools
               </h2>
               <ul className="mt-4 list-inside list-disc pl-4 text-lg text-gray-600 dark:text-gray-400">
-                <li>Python, R</li>
+                <li>Python, Pyspark, R</li>
                 <li>SQL</li>
                 <li>Power BI, Tableau</li>
                 <li>Excel</li>
-                <li>Git/Github</li>
+                <li>Hadoop, Spark</li>
                 <li>AWS,Azure,GCP </li>
               </ul>
             </div>
@@ -200,7 +198,7 @@ export default function Home({ posts }) {
                 <li>Analytics</li>
                 <li>Machine Learning</li>
                 <li>Visualization</li>
-                <li>Forecasting & Time Series</li>
+                <li>Big Data Tools</li>
                 <li>NLP</li>
                 <li>Statistics</li>
               </ul>
