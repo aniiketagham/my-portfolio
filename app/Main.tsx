@@ -121,7 +121,8 @@ export default function Home({ posts }) {
               </p>
               <ul className="text-md mt-2 list-inside list-disc pl-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  Built and maintained 10+ interactive dashboards using Power BI, Excel, and Google Sheets, aligned with key business KPIs, resulting in a 35% improvement in data-driven decision-making across departments. 
+                  Built and maintained 10+ interactive dashboards using Power BI, Excel, and Google Sheets, aligned with key business
+                  KPIs, resulting in a 35% improvement in data-driven decision-making across departments. 
                 </li>
                 <li>
                   Analyzed performance of top revenue-generating products, delivering insights that influenced pricing and inventory strategies, and improved product lifecycle planning. 
